@@ -14,6 +14,7 @@ function App() {
       setTableData(json)
       //console.log(json)
     }catch(error){
+      console.error("Error fetching data:", error);
       alert("failed to fetch data")
     }
   }
